@@ -4,7 +4,7 @@
 
 ![alt text](https://i.imgur.com/OOOcuJ8.gif "video")
 
-#Usage:
+# Usage:
 
 Simply download the `carousel.js` file in this repo and include it at the bottom of your HTML.
 
