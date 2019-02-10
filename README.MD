@@ -2,4 +2,4 @@
 
 <h5 style="text-align: center; margin-bottom: 20px; color: #333">Built using HTML5 data attributes </h5>
 
-![Video](https://i.imgur.com/hOnNdnf.gif)
+![alt text](https://i.imgur.com/OOOcuJ8.gif "Video")
