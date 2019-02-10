@@ -37,6 +37,30 @@ I included an `index.html` that can be used as a reference on how to use the HTM
 
 - You can have multiple carousels on the same page, each with different speeds. Make sure to have unique `data-carousel` values for multiple carousels on one page
 - The `data-speed` attribute controls the speed in miliseconds for each carousel
+
+Example:
+
+```html
+<div class="carousel" data-carousel="1" data-speed="1000"></div>
+```
+
 - For the hover effect in this carousel to work properly, I recommend to place an extra last image first, as well an extra first image last
 
+Example:
+
+```html
+<img src="img/img-2.jpg" alt="image 2" />
+<img src="img/img-1.jpg" alt="image 1" />
+<img src="img/img-2.jpg" alt="image 2" />
+<img src="img/img-1.jpg" alt="image 1" />
+```
+
 Most of the styles are on the `.carousel-content` class that you can easily overwrite if you need. Images display 100vh on mobile which can be changed with a media query.
+
+For example if you want to change the transition, target `.carousel-content` and provide your own transition value
+
+```css
+.carousel-content {
+  transition: 500ms;
+}
+```
