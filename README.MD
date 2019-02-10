@@ -29,7 +29,7 @@ I included an `index.html` that can be used as a reference on how to use the HTM
 </div>
 ```
 
-- Each carousel must contain the carousel class and a data-carousel attribute and data speed attribute
+- Each carousel must contain the `.carousel` class and a `data-carousel` attribute and `data-speed` attribute
 
 - All images or videos must go in the `.carousel-content` class
 
