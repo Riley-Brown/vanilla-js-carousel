@@ -13,6 +13,32 @@ if (document.querySelectorAll('.carousel').length > 0) {
         let counterIncrement = width;
         let int = setInterval(timer, speed)
 
+        if (window.innerWidth > 800) {
+            window.addEventListener('resize', function () {
+                width = window.innerWidth;
+                count = width
+                counterIncrement = width
+                carouselContent.style.transform = `translateX(-${width}px)`;
+                clearInterval(int)
+                int = setInterval(timer, speed);
+            })
+        }
+
+        // fixes mobile resizing 
+        if (window.innerWidth < 800) {
+            window.addEventListener('resize', function () {
+                if (width < window.innerWidth || window.innerWidth < width - 150) {
+                    width = window.innerWidth;
+                    count = width
+                    counterIncrement = width
+                    carouselContent.style.transform = `translateX(-${width}px)`;
+                    clearInterval(int)
+                    int = setInterval(timer, speed);
+                }
+            })
+        }
+
+
         // initial transform
         carouselContent.style.transform = `translateX(-${width}px)`
 
