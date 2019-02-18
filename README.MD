@@ -2,7 +2,7 @@
 
 <h5 style="text-align: center; margin-bottom: 20px; color: #333">Built using HTML5 data attributes </h5>
 
-[Video live demo here](https://codepen.io/RileyB/full/VgXaQr)
+[Codepen live demo here](https://codepen.io/RileyB/full/VgXaQr)
 
 ![alt text](https://i.imgur.com/OOOcuJ8.gif "video")
 
